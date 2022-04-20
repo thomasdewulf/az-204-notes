@@ -114,3 +114,15 @@ az webapp show \
     --query possibleOutboundIpAddresses \
     --output tsv
 ```
+
+Create and deploy webapp from current directory. If app does not exist, creates a new one. Redeploys code if app already exists.
+
+```bash
+az webapp up --location <myLocation> --name <myAppName> --html
+```
+
+Delete resource group
+
+```bash
+az group delete --name <resource_group> --no-wait
+```
