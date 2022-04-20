@@ -40,7 +40,7 @@ App Service plan is the scale unit of apps in App Service. App runs on all insta
 
 ## Deployment slots
 
-Only available in Standard and Premium App Service Plans
+Only available in Standard and Premium App Service Plans. Swapping deployment slots warms up necessary worker instances to match production scale, eliminating downtime
 
 ## Useful commands
 
