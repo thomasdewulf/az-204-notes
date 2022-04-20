@@ -69,7 +69,7 @@ Authorization can be handled in 2 ways:
 
 ## Networking
 
-By default, apps in an App Service are accessible through public internet and can only reach internet-hosed endpoints. There are 2 main deployment types: 
+By default, apps in an App Service are accessible through public internet and can only reach internet-hosed endpoints. There are 2 main deployment types:
 
 - Multitenant public service hosts App Service Plans (all tiers but Isolated)
 - Single tenant App Service Environment (Isolated)
@@ -85,9 +85,9 @@ By default, apps in an App Service are accessible through public internet and ca
 
 ### Outbound addresses
 
-When VM family is changed, outbound addresses change as well. 
+When VM family is changed, outbound addresses change as well.
 
-There are multiple addresses for outbound calls. These are shared by all the apps running on the same worker VM family in the App service deployment. 
+There are multiple addresses for outbound calls. These are shared by all the apps running on the same worker VM family in the App service deployment.
 
 ## Useful commands
 
